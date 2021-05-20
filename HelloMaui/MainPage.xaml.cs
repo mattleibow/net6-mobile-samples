@@ -12,13 +12,5 @@ namespace HelloMaui
 		{
 			InitializeComponent();
 		}
-
-		int count = 0;
-
-		private void OnButtonClicked(object sender, EventArgs e)
-		{
-			count++;
-			CounterLabel.Text = $"You clicked {count} times!";
-		}
 	}
 }
